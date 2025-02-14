@@ -225,6 +225,8 @@ hr.small {
 
 .portfolio-item {
   margin-bottom: 30px;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .img-portfolio {
