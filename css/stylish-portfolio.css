@@ -280,3 +280,24 @@ footer {
   display: none;
   padding: 15px 20px;
 }
+
+ul.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+ul.no-bullets li {
+  margin-bottom: 10px;
+}
+
+ul.no-bullets li a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+ul.no-bullets li a:hover {
+  color: #2563eb;
+}
